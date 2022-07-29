@@ -1,0 +1,5 @@
+This is a sample set of commands to compile the project in Ubuntu (or any unix based OS) terminal:
+
+export SYSTEMC_HOME=/usr/local/systemc-2.3.1/
+
+g++ -std=c++11 -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -Wl,-rpath=$SYSTEMC_HOME/lib-linux64 -o FileReader FileReader.cpp -lsystemc -lm

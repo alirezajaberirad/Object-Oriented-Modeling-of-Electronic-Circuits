@@ -1,0 +1,1 @@
+There's a mistake in "Computer Assignment 3.pdf". In figure 1, both read and write signals are from LRU Updater to Memory.

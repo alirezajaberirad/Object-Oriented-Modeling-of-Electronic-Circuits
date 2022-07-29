@@ -1,0 +1,152 @@
+$date
+     May 29, 2022       07:35:41
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- May 25 2022 09:37:07
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clk       $end
+$var wire    4  aaaab  NewPage [3:0]  $end
+$var wire    1  aaaac  completed       $end
+$var wire    4  aaaad  Memory_0 [3:0]  $end
+$var wire    4  aaaae  Memory_1 [3:0]  $end
+$var wire    4  aaaaf  Memory_2 [3:0]  $end
+$var wire    4  aaaag  Memory_3 [3:0]  $end
+$var wire    4  aaaah  Memory_4 [3:0]  $end
+$var wire    4  aaaai  Memory_5 [3:0]  $end
+$var wire    4  aaaaj  Memory_6 [3:0]  $end
+$var wire    4  aaaak  Memory_7 [3:0]  $end
+$var wire    4  aaaal  Memory_8 [3:0]  $end
+$var wire    4  aaaam  Memory_9 [3:0]  $end
+$var wire    4  aaaan  Memory_10 [3:0]  $end
+$var wire    4  aaaao  Memory_11 [3:0]  $end
+$var wire    4  aaaap  Memory_12 [3:0]  $end
+$var wire    4  aaaaq  Memory_13 [3:0]  $end
+$var wire    4  aaaar  Memory_14 [3:0]  $end
+$var wire    4  aaaas  Memory_15 [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+xaaaaa
+b100 aaaab
+0aaaac
+b0 aaaad
+b1 aaaae
+b10 aaaaf
+b11 aaaag
+b100 aaaah
+b101 aaaai
+b110 aaaaj
+b111 aaaak
+b1000 aaaal
+b1001 aaaam
+b1010 aaaan
+b1011 aaaao
+b1100 aaaap
+b1101 aaaaq
+b1110 aaaar
+b1111 aaaas
+$end
+
+#5000
+1aaaaa
+1aaaac
+b100 aaaad
+b0 aaaae
+b1 aaaaf
+b10 aaaag
+b11 aaaah
+
+#10000
+0aaaaa
+
+#15000
+1aaaaa
+0aaaac
+
+#20000
+0aaaaa
+b101 aaaab
+
+#25000
+1aaaaa
+1aaaac
+b101 aaaad
+b100 aaaae
+b0 aaaaf
+b1 aaaag
+b10 aaaah
+b11 aaaai
+
+#30000
+0aaaaa
+
+#35000
+1aaaaa
+0aaaac
+
+#40000
+0aaaaa
+b1110 aaaab
+
+#45000
+1aaaaa
+1aaaac
+b1110 aaaad
+b101 aaaae
+b100 aaaaf
+b0 aaaag
+b1 aaaah
+b10 aaaai
+b11 aaaaj
+b110 aaaak
+b111 aaaal
+b1000 aaaam
+b1001 aaaan
+b1010 aaaao
+b1011 aaaap
+b1100 aaaaq
+b1101 aaaar
+
+#50000
+0aaaaa
+
+#55000
+1aaaaa
+0aaaac
+
+#60000
+0aaaaa
+
+#65000
+1aaaaa
+
+#70000
+0aaaaa
+
+#75000
+1aaaaa
+
+#80000
+0aaaaa
+
+#85000
+1aaaaa
+
+#90000
+0aaaaa
+
+#95000
+1aaaaa
+
